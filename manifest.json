@@ -1,5 +1,17 @@
 {
+<<<<<<< HEAD
     "manifest_version": 2,
     "name": "Reeder Rainbow",
     "version": "0.1"
   }
+=======
+    "manifest_version": 3,
+    "name": "Reeder Rainbow",
+    "version": "0.1",
+    "description": "who even fucking knows",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "contextMenus"]
+}
+>>>>>>> a6664ef7ff4d46fbbbbf80505199a9f5057cb7bb
