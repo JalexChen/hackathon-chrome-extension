@@ -1,17 +1,25 @@
 {
-<<<<<<< HEAD
-    "manifest_version": 2,
-    "name": "Reeder Rainbow",
-    "version": "0.1"
-  }
-=======
     "manifest_version": 3,
-    "name": "Reeder Rainbow",
-    "version": "0.1",
-    "description": "who even fucking knows",
+    "name": "speechBubbles",
+    "version": "0.2",
+    "icons" : ["1.jpg","2.jpg"],
+    "description": "who knows? Codesmith knows",
     "background": {
       "service_worker": "background.js"
     },
-    "permissions": ["storage", "contextMenus"]
+    "permissions": ["storage", "contextMenus"],
+    "action": {},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["coolStyles.css"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [ "*.png", "*.jpg"],
+        "matches": [ "<all_urls>" ]
+      }
+    ]
 }
->>>>>>> a6664ef7ff4d46fbbbbf80505199a9f5057cb7bb
