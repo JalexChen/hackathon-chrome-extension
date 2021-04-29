@@ -7,4 +7,4 @@ Ever been lost on the internet?
 - Hit "Load Unpacked" and navigate to the directory that holds these files
 - Turn on the extension and start highlighting!
 
-# Enjoy the thoughts of our mentors
+# Enjoy the thoughts of our mentors`

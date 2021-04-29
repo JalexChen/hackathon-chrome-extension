@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "speechBubbles",
     "version": "0.2",
-    "icons" : ["1.jpg","2.jpg"],
+    "icons" : "1.png",
     "description": "who knows? Codesmith knows",
     "background": {
       "service_worker": "background.js"
